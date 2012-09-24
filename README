@@ -1,3 +1,11 @@
 This is designed to be a place for me to put various tools that I find helpful
 to have when working with aspell.  Depending on how annoyed I get with aspell,
 the size of this repository might become larger or smaller.
+
+As a usage note, since this repository starts with "--", if you wish to
+interact with it easily on *nix, you might want to consider the following:
+
+  $ alias cd="cd --"
+
+so that you can avoid typing "cd -- --aspell" or "cd ./--aspell" every time
+you want to use it.
